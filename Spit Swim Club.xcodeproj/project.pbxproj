@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EEF1AE1926CF2E00557C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EEF1AD1926CF2E00557C8C /* Foundation.framework */; };
+		A6EEF1B01926CF2E00557C8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EEF1AF1926CF2E00557C8C /* CoreGraphics.framework */; };
+		A6EEF1B21926CF2E00557C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EEF1B11926CF2E00557C8C /* UIKit.framework */; };
+		A6EEF1B81926CF2E00557C8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6EEF1B61926CF2E00557C8C /* InfoPlist.strings */; };
+		A6EEF1BA1926CF2E00557C8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EEF1B91926CF2E00557C8C /* main.m */; };
+		A6EEF1BE1926CF2E00557C8C /* SSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EEF1BD1926CF2E00557C8C /* SSCAppDelegate.m */; };
+		A6EEF1C11926CF2E00557C8C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EEF1BF1926CF2E00557C8C /* Main_iPhone.storyboard */; };
+		A6EEF1C41926CF2E00557C8C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EEF1C21926CF2E00557C8C /* Main_iPad.storyboard */; };
+		A6EEF1C71926CF2E00557C8C /* SSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EEF1C61926CF2E00557C8C /* SSCViewController.m */; };
+		A6EEF1C91926CF2E00557C8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EEF1C81926CF2E00557C8C /* Images.xcassets */; };
+		A6EEF1D01926CF2E00557C8C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EEF1CF1926CF2E00557C8C /* XCTest.framework */; };
+		A6EEF1D11926CF2E00557C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EEF1AD1926CF2E00557C8C /* Foundation.framework */; };
+		A6EEF1D21926CF2E00557C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EEF1B11926CF2E00557C8C /* UIKit.framework */; };
+		A6EEF1DA1926CF2E00557C8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6EEF1D81926CF2E00557C8C /* InfoPlist.strings */; };
+		A6EEF1DC1926CF2E00557C8C /* Spit_Swim_ClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EEF1DB1926CF2E00557C8C /* Spit_Swim_ClubTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6EEF1D31926CF2E00557C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6EEF1A21926CF2D00557C8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6EEF1A91926CF2E00557C8C;
+			remoteInfo = "Spit Swim Club";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6EEF1AA1926CF2E00557C8C /* Spit Swim Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spit Swim Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EEF1AD1926CF2E00557C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6EEF1AF1926CF2E00557C8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6EEF1B11926CF2E00557C8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6EEF1B51926CF2E00557C8C /* Spit Swim Club-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spit Swim Club-Info.plist"; sourceTree = "<group>"; };
+		A6EEF1B71926CF2E00557C8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6EEF1B91926CF2E00557C8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6EEF1BB1926CF2E00557C8C /* Spit Swim Club-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spit Swim Club-Prefix.pch"; sourceTree = "<group>"; };
+		A6EEF1BC1926CF2E00557C8C /* SSCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCAppDelegate.h; sourceTree = "<group>"; };
+		A6EEF1BD1926CF2E00557C8C /* SSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCAppDelegate.m; sourceTree = "<group>"; };
+		A6EEF1C01926CF2E00557C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A6EEF1C31926CF2E00557C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A6EEF1C51926CF2E00557C8C /* SSCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCViewController.h; sourceTree = "<group>"; };
+		A6EEF1C61926CF2E00557C8C /* SSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCViewController.m; sourceTree = "<group>"; };
+		A6EEF1C81926CF2E00557C8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6EEF1CE1926CF2E00557C8C /* Spit Swim ClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spit Swim ClubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EEF1CF1926CF2E00557C8C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A6EEF1D71926CF2E00557C8C /* Spit Swim ClubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spit Swim ClubTests-Info.plist"; sourceTree = "<group>"; };
+		A6EEF1D91926CF2E00557C8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6EEF1DB1926CF2E00557C8C /* Spit_Swim_ClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spit_Swim_ClubTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EEF1A71926CF2E00557C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EEF1B01926CF2E00557C8C /* CoreGraphics.framework in Frameworks */,
+				A6EEF1B21926CF2E00557C8C /* UIKit.framework in Frameworks */,
+				A6EEF1AE1926CF2E00557C8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EEF1CB1926CF2E00557C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EEF1D01926CF2E00557C8C /* XCTest.framework in Frameworks */,
+				A6EEF1D21926CF2E00557C8C /* UIKit.framework in Frameworks */,
+				A6EEF1D11926CF2E00557C8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EEF1A11926CF2D00557C8C = {
+			isa = PBXGroup;
+			children = (
+				A6EEF1B31926CF2E00557C8C /* Spit Swim Club */,
+				A6EEF1D51926CF2E00557C8C /* Spit Swim ClubTests */,
+				A6EEF1AC1926CF2E00557C8C /* Frameworks */,
+				A6EEF1AB1926CF2E00557C8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EEF1AB1926CF2E00557C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EEF1AA1926CF2E00557C8C /* Spit Swim Club.app */,
+				A6EEF1CE1926CF2E00557C8C /* Spit Swim ClubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EEF1AC1926CF2E00557C8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EEF1AD1926CF2E00557C8C /* Foundation.framework */,
+				A6EEF1AF1926CF2E00557C8C /* CoreGraphics.framework */,
+				A6EEF1B11926CF2E00557C8C /* UIKit.framework */,
+				A6EEF1CF1926CF2E00557C8C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EEF1B31926CF2E00557C8C /* Spit Swim Club */ = {
+			isa = PBXGroup;
+			children = (
+				A6EEF1BC1926CF2E00557C8C /* SSCAppDelegate.h */,
+				A6EEF1BD1926CF2E00557C8C /* SSCAppDelegate.m */,
+				A6EEF1BF1926CF2E00557C8C /* Main_iPhone.storyboard */,
+				A6EEF1C21926CF2E00557C8C /* Main_iPad.storyboard */,
+				A6EEF1C51926CF2E00557C8C /* SSCViewController.h */,
+				A6EEF1C61926CF2E00557C8C /* SSCViewController.m */,
+				A6EEF1C81926CF2E00557C8C /* Images.xcassets */,
+				A6EEF1B41926CF2E00557C8C /* Supporting Files */,
+			);
+			path = "Spit Swim Club";
+			sourceTree = "<group>";
+		};
+		A6EEF1B41926CF2E00557C8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6EEF1B51926CF2E00557C8C /* Spit Swim Club-Info.plist */,
+				A6EEF1B61926CF2E00557C8C /* InfoPlist.strings */,
+				A6EEF1B91926CF2E00557C8C /* main.m */,
+				A6EEF1BB1926CF2E00557C8C /* Spit Swim Club-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6EEF1D51926CF2E00557C8C /* Spit Swim ClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6EEF1DB1926CF2E00557C8C /* Spit_Swim_ClubTests.m */,
+				A6EEF1D61926CF2E00557C8C /* Supporting Files */,
+			);
+			path = "Spit Swim ClubTests";
+			sourceTree = "<group>";
+		};
+		A6EEF1D61926CF2E00557C8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6EEF1D71926CF2E00557C8C /* Spit Swim ClubTests-Info.plist */,
+				A6EEF1D81926CF2E00557C8C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EEF1A91926CF2E00557C8C /* Spit Swim Club */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EEF1DF1926CF2E00557C8C /* Build configuration list for PBXNativeTarget "Spit Swim Club" */;
+			buildPhases = (
+				A6EEF1A61926CF2E00557C8C /* Sources */,
+				A6EEF1A71926CF2E00557C8C /* Frameworks */,
+				A6EEF1A81926CF2E00557C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spit Swim Club";
+			productName = "Spit Swim Club";
+			productReference = A6EEF1AA1926CF2E00557C8C /* Spit Swim Club.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6EEF1CD1926CF2E00557C8C /* Spit Swim ClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EEF1E21926CF2E00557C8C /* Build configuration list for PBXNativeTarget "Spit Swim ClubTests" */;
+			buildPhases = (
+				A6EEF1CA1926CF2E00557C8C /* Sources */,
+				A6EEF1CB1926CF2E00557C8C /* Frameworks */,
+				A6EEF1CC1926CF2E00557C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6EEF1D41926CF2E00557C8C /* PBXTargetDependency */,
+			);
+			name = "Spit Swim ClubTests";
+			productName = "Spit Swim ClubTests";
+			productReference = A6EEF1CE1926CF2E00557C8C /* Spit Swim ClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EEF1A21926CF2D00557C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SSC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nigel Rudgyard";
+				TargetAttributes = {
+					A6EEF1CD1926CF2E00557C8C = {
+						TestTargetID = A6EEF1A91926CF2E00557C8C;
+					};
+				};
+			};
+			buildConfigurationList = A6EEF1A51926CF2D00557C8C /* Build configuration list for PBXProject "Spit Swim Club" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6EEF1A11926CF2D00557C8C;
+			productRefGroup = A6EEF1AB1926CF2E00557C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EEF1A91926CF2E00557C8C /* Spit Swim Club */,
+				A6EEF1CD1926CF2E00557C8C /* Spit Swim ClubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EEF1A81926CF2E00557C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EEF1C41926CF2E00557C8C /* Main_iPad.storyboard in Resources */,
+				A6EEF1C91926CF2E00557C8C /* Images.xcassets in Resources */,
+				A6EEF1C11926CF2E00557C8C /* Main_iPhone.storyboard in Resources */,
+				A6EEF1B81926CF2E00557C8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EEF1CC1926CF2E00557C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EEF1DA1926CF2E00557C8C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EEF1A61926CF2E00557C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EEF1C71926CF2E00557C8C /* SSCViewController.m in Sources */,
+				A6EEF1BE1926CF2E00557C8C /* SSCAppDelegate.m in Sources */,
+				A6EEF1BA1926CF2E00557C8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EEF1CA1926CF2E00557C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EEF1DC1926CF2E00557C8C /* Spit_Swim_ClubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6EEF1D41926CF2E00557C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6EEF1A91926CF2E00557C8C /* Spit Swim Club */;
+			targetProxy = A6EEF1D31926CF2E00557C8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6EEF1B61926CF2E00557C8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EEF1B71926CF2E00557C8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6EEF1BF1926CF2E00557C8C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EEF1C01926CF2E00557C8C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A6EEF1C21926CF2E00557C8C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EEF1C31926CF2E00557C8C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A6EEF1D81926CF2E00557C8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EEF1D91926CF2E00557C8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6EEF1DD1926CF2E00557C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6EEF1DE1926CF2E00557C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EEF1E01926CF2E00557C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spit Swim Club/Spit Swim Club-Prefix.pch";
+				INFOPLIST_FILE = "Spit Swim Club/Spit Swim Club-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6EEF1E11926CF2E00557C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spit Swim Club/Spit Swim Club-Prefix.pch";
+				INFOPLIST_FILE = "Spit Swim Club/Spit Swim Club-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A6EEF1E31926CF2E00557C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spit Swim Club.app/Spit Swim Club";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spit Swim Club/Spit Swim Club-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Spit Swim ClubTests/Spit Swim ClubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A6EEF1E41926CF2E00557C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spit Swim Club.app/Spit Swim Club";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spit Swim Club/Spit Swim Club-Prefix.pch";
+				INFOPLIST_FILE = "Spit Swim ClubTests/Spit Swim ClubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EEF1A51926CF2D00557C8C /* Build configuration list for PBXProject "Spit Swim Club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EEF1DD1926CF2E00557C8C /* Debug */,
+				A6EEF1DE1926CF2E00557C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EEF1DF1926CF2E00557C8C /* Build configuration list for PBXNativeTarget "Spit Swim Club" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EEF1E01926CF2E00557C8C /* Debug */,
+				A6EEF1E11926CF2E00557C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6EEF1E21926CF2E00557C8C /* Build configuration list for PBXNativeTarget "Spit Swim ClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EEF1E31926CF2E00557C8C /* Debug */,
+				A6EEF1E41926CF2E00557C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EEF1A21926CF2D00557C8C /* Project object */;
+}
