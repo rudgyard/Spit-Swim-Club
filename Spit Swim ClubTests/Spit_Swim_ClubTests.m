@@ -2,7 +2,7 @@
 //  Spit_Swim_ClubTests.m
 //  Spit Swim ClubTests
 //
-//  Created by Nigel Rudgyard on 17/05/14.
+//  Created by Nigel Rudgyard on 17/05/2014.
 //  Copyright (c) 2014 Nigel Rudgyard. All rights reserved.
 //
 
