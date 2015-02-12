@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A66203B21939CD2E0087D9D7 /* SSCCompetitor.m in Sources */ = {isa = PBXBuildFile; fileRef = A66203B11939CD2E0087D9D7 /* SSCCompetitor.m */; };
+		A66203B51939CE4A0087D9D7 /* SSCData.m in Sources */ = {isa = PBXBuildFile; fileRef = A66203B41939CE4A0087D9D7 /* SSCData.m */; };
+		A66203B8193C60B50087D9D7 /* SSCStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = A66203B7193C60B50087D9D7 /* SSCStroke.m */; };
+		A662045D193F1CE10087D9D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A662045C193F1CE10087D9D7 /* CoreData.framework */; };
+		A6620460193F1E2B0087D9D7 /* SSCSettings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A662045E193F1E2B0087D9D7 /* SSCSettings.xcdatamodeld */; };
+		A6620469193F1F1B0087D9D7 /* SSCSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = A6620468193F1F1B0087D9D7 /* SSCSettings.m */; };
+		A67B83961939AB0700DA5EBD /* SSCCompetitorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A67B83951939AB0700DA5EBD /* SSCCompetitorTableViewController.m */; };
+		A6825BF419FFAFCC009C5AFD /* ssc.png in Resources */ = {isa = PBXBuildFile; fileRef = A6825BF319FFAFCC009C5AFD /* ssc.png */; };
 		A6EEF1AE1926CF2E00557C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EEF1AD1926CF2E00557C8C /* Foundation.framework */; };
 		A6EEF1B01926CF2E00557C8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EEF1AF1926CF2E00557C8C /* CoreGraphics.framework */; };
 		A6EEF1B21926CF2E00557C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EEF1B11926CF2E00557C8C /* UIKit.framework */; };
@@ -35,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A66203B01939CD2E0087D9D7 /* SSCCompetitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCCompetitor.h; sourceTree = "<group>"; };
+		A66203B11939CD2E0087D9D7 /* SSCCompetitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCCompetitor.m; sourceTree = "<group>"; };
+		A66203B31939CE4A0087D9D7 /* SSCData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCData.h; sourceTree = "<group>"; };
+		A66203B41939CE4A0087D9D7 /* SSCData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCData.m; sourceTree = "<group>"; };
+		A66203B6193C60B50087D9D7 /* SSCStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCStroke.h; sourceTree = "<group>"; };
+		A66203B7193C60B50087D9D7 /* SSCStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCStroke.m; sourceTree = "<group>"; };
+		A662045C193F1CE10087D9D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A662045F193F1E2B0087D9D7 /* SSCSettings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SSCSettings.xcdatamodel; sourceTree = "<group>"; };
+		A6620467193F1F1B0087D9D7 /* SSCSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCSettings.h; sourceTree = "<group>"; };
+		A6620468193F1F1B0087D9D7 /* SSCSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCSettings.m; sourceTree = "<group>"; };
+		A67B83941939AB0700DA5EBD /* SSCCompetitorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCCompetitorTableViewController.h; sourceTree = "<group>"; };
+		A67B83951939AB0700DA5EBD /* SSCCompetitorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCCompetitorTableViewController.m; sourceTree = "<group>"; };
+		A6825BF319FFAFCC009C5AFD /* ssc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ssc.png; path = "../../../../../Volumes/Macintosh HD-1/Applications/MAMP/htdocs/ssc/images/ssc.png"; sourceTree = "<group>"; };
 		A6EEF1AA1926CF2E00557C8C /* Spit Swim Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spit Swim Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EEF1AD1926CF2E00557C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6EEF1AF1926CF2E00557C8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A662045D193F1CE10087D9D7 /* CoreData.framework in Frameworks */,
 				A6EEF1B01926CF2E00557C8C /* CoreGraphics.framework in Frameworks */,
 				A6EEF1B21926CF2E00557C8C /* UIKit.framework in Frameworks */,
 				A6EEF1AE1926CF2E00557C8C /* Foundation.framework in Frameworks */,
@@ -103,6 +125,7 @@
 		A6EEF1AC1926CF2E00557C8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A662045C193F1CE10087D9D7 /* CoreData.framework */,
 				A6EEF1AD1926CF2E00557C8C /* Foundation.framework */,
 				A6EEF1AF1926CF2E00557C8C /* CoreGraphics.framework */,
 				A6EEF1B11926CF2E00557C8C /* UIKit.framework */,
@@ -114,6 +137,7 @@
 		A6EEF1B31926CF2E00557C8C /* Spit Swim Club */ = {
 			isa = PBXGroup;
 			children = (
+				A6EEF1E51926CF3B00557C8C /* Images */,
 				A6EEF1BC1926CF2E00557C8C /* SSCAppDelegate.h */,
 				A6EEF1BD1926CF2E00557C8C /* SSCAppDelegate.m */,
 				A6EEF1BF1926CF2E00557C8C /* Main_iPhone.storyboard */,
@@ -122,6 +146,17 @@
 				A6EEF1C61926CF2E00557C8C /* SSCViewController.m */,
 				A6EEF1C81926CF2E00557C8C /* Images.xcassets */,
 				A6EEF1B41926CF2E00557C8C /* Supporting Files */,
+				A67B83941939AB0700DA5EBD /* SSCCompetitorTableViewController.h */,
+				A67B83951939AB0700DA5EBD /* SSCCompetitorTableViewController.m */,
+				A66203B01939CD2E0087D9D7 /* SSCCompetitor.h */,
+				A66203B11939CD2E0087D9D7 /* SSCCompetitor.m */,
+				A66203B6193C60B50087D9D7 /* SSCStroke.h */,
+				A66203B7193C60B50087D9D7 /* SSCStroke.m */,
+				A66203B31939CE4A0087D9D7 /* SSCData.h */,
+				A66203B41939CE4A0087D9D7 /* SSCData.m */,
+				A662045E193F1E2B0087D9D7 /* SSCSettings.xcdatamodeld */,
+				A6620467193F1F1B0087D9D7 /* SSCSettings.h */,
+				A6620468193F1F1B0087D9D7 /* SSCSettings.m */,
 			);
 			path = "Spit Swim Club";
 			sourceTree = "<group>";
@@ -153,6 +188,14 @@
 				A6EEF1D81926CF2E00557C8C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6EEF1E51926CF3B00557C8C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A6825BF319FFAFCC009C5AFD /* ssc.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +277,7 @@
 			files = (
 				A6EEF1C41926CF2E00557C8C /* Main_iPad.storyboard in Resources */,
 				A6EEF1C91926CF2E00557C8C /* Images.xcassets in Resources */,
+				A6825BF419FFAFCC009C5AFD /* ssc.png in Resources */,
 				A6EEF1C11926CF2E00557C8C /* Main_iPhone.storyboard in Resources */,
 				A6EEF1B81926CF2E00557C8C /* InfoPlist.strings in Resources */,
 			);
@@ -256,7 +300,13 @@
 			files = (
 				A6EEF1C71926CF2E00557C8C /* SSCViewController.m in Sources */,
 				A6EEF1BE1926CF2E00557C8C /* SSCAppDelegate.m in Sources */,
+				A6620460193F1E2B0087D9D7 /* SSCSettings.xcdatamodeld in Sources */,
 				A6EEF1BA1926CF2E00557C8C /* main.m in Sources */,
+				A66203B51939CE4A0087D9D7 /* SSCData.m in Sources */,
+				A6620469193F1F1B0087D9D7 /* SSCSettings.m in Sources */,
+				A66203B8193C60B50087D9D7 /* SSCStroke.m in Sources */,
+				A67B83961939AB0700DA5EBD /* SSCCompetitorTableViewController.m in Sources */,
+				A66203B21939CD2E0087D9D7 /* SSCCompetitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +521,7 @@
 				A6EEF1E11926CF2E00557C8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6EEF1E21926CF2E00557C8C /* Build configuration list for PBXNativeTarget "Spit Swim ClubTests" */ = {
 			isa = XCConfigurationList;
@@ -479,8 +530,22 @@
 				A6EEF1E41926CF2E00557C8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A662045E193F1E2B0087D9D7 /* SSCSettings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A662045F193F1E2B0087D9D7 /* SSCSettings.xcdatamodel */,
+			);
+			currentVersion = A662045F193F1E2B0087D9D7 /* SSCSettings.xcdatamodel */;
+			path = SSCSettings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A6EEF1A21926CF2D00557C8C /* Project object */;
 }

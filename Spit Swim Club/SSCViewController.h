@@ -10,4 +10,9 @@
 
 @interface SSCViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *loadMessage;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+
+@property (weak, nonatomic) IBOutlet UITextView *jsonSummary;
+
 @end
